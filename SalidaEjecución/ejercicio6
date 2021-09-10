@@ -1,0 +1,43 @@
+
+
+ Simulating Protocol 6
+
+
+Events: 500    Parameters: 50 40 40
+
+Process 0:
+	Total data frames sent:         44
+	Data frames lost:               27
+	Data frames not lost:           17
+	Frames retransmitted:           31
+	Good ack frames rec'd:           0
+	Bad ack frames rec'd:            0
+
+	Good data frames rec'd:          9
+	Bad data frames rec'd:           5
+	Payloads accepted:               0
+	Total ack frames sent:           0
+	Ack frames lost:                 0
+	Ack frames not lost:             0
+	Timeouts:                       31
+	Ack timeouts:                    0
+
+Process 1:
+	Total data frames sent:         40
+	Data frames lost:               26
+	Data frames not lost:           14
+	Frames retransmitted:           36
+	Good ack frames rec'd:           0
+	Bad ack frames rec'd:            0
+
+	Good data frames rec'd:         11
+	Bad data frames rec'd:           6
+	Payloads accepted:               8
+	Total ack frames sent:           0
+	Ack frames lost:                 0
+	Ack frames not lost:             0
+	Timeouts:                       36
+	Ack timeouts:                    0
+
+Efficiency (payloads accepted/data pkts sent) = 9%
+End of simulation.  Time=500
