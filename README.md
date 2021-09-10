@@ -10,6 +10,8 @@
   <img src="https://github.com/road2root/Simulador-Nivel-de-Enlace/blob/main/Images/Ejercicio1.png" width="500" />
 </div>
 
+
+
 ### Ejercicio 2: Ejecutar el protocolo 3 con diferentes tasas de pérdida de paquetes, diferentes tasas de errores en trama. ¿Cómo afectan el incremento de la pérdida de paquetes a la eficiencia del protocolo 3? ¿Cómo afecta el incremento de la tasa de errores en tramas a la eficiencia del protocolo 3?
 
 <div align="center">
@@ -39,6 +41,8 @@ cuando hablamos del mínimo de eficiencia antes de llegar a al 0% en la trama 15
 es un porcentaje intermedio entre los 18% de las tramas que se pierden y el 6% de las tramas que
 llegan con error.
 
+
+
 ### Ejercicio 3: Ejecutar el protocolo 3 con la siguiente orden: ./protocol3 100 10 10 10 0. Dibujar
 en la gráfica inferior el resultado obtenido. Interpretar y comentar cada una de las
 situaciones que se producen en la comunicación y sus causas (errores, timeouts,
@@ -64,6 +68,8 @@ retransmisiones, etc.).
   <img src="https://github.com/road2root/Simulador-Nivel-de-Enlace/blob/main/Images/Ejercicio3.6.png" width="500" />
 </div>
 
+
+
 ### Ejercicio 4: Ejecutar el protocolo 3 con la siguiente orden: ./protocol3 100 40 10 10 0. Dibujar en una gráfica como la anterior el resultado obtenido. ¿cuál es la diferencia con el apartado 3?.
 
 <div align="center">
@@ -78,6 +84,8 @@ retransmisiones, etc.).
 </div>
 
 En esta ejecución del protocolo 3 se aumenta el Time Out de 10 a 40 respecto al ejercicio anterior y se puede observar como ahora los mensajes de confirmación ack llegan de forma correcta al contrario que en el ejercicio 3 donde a veces no daba tiempo a que llegase el ack y saltaba el Time Out. Esto hacía que no hubiese una sincronización entre emisor y receptor y terminaban llegando fuera de tiempo sin saber cuál se confirmaba. Esto hace que la eficiencia haya aumentado de 38% a 40%. 
+
+
 
 ### Ejercicio 5: Ejecutar el protocolo 4. Indicar si aporta ventajas con respecto al protocolo 3. En términos de la eficiencia utilizada por el simulador, ¿resulta más adecuado utilizar el protocolo 4 o el protocolo 3 para un enlace de red?
 
@@ -96,6 +104,8 @@ eficiencia mayor que con un porcentaje menor.
 También se observa en el protocolo 4 que a mayor porcentaje de tramas que se pierden o que
 llegan con error, mayor eficiencia tiene. Esto no es productivo porque la eficiencia resultante es
 mayor que en protocolo 3 cuantas más tramas se pierdan o lleguen con error.
+
+
 
 ### Ejercicio 6: Ejecutar los protocolos de ventana deslizante (protocolo5 y protocolo6) y realizar
 una comparación entre ellos. Para ello probar la ejecución de los 2 protocolos bajo las
