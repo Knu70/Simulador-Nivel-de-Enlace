@@ -1,0 +1,43 @@
+
+
+ Simulating Protocol 4
+
+
+Events: 1000    Parameters: 100 40 40
+
+Process 0:
+	Total data frames sent:         12
+	Data frames lost:                9
+
+Process 1:
+	Data frames not lost:            3
+	Frames retransmitted:            8
+	Total data frames sent:         13
+	Good ack frames rec'd:           0
+	Data frames lost:               10
+	Bad ack frames rec'd:            0
+
+	Data frames not lost:            3
+	Good data frames rec'd:          3
+	Frames retransmitted:            9
+	Bad data frames rec'd:           0
+	Good ack frames rec'd:           0
+	Payloads accepted:               3
+	Bad ack frames rec'd:            0
+
+	Total ack frames sent:           0
+	Good data frames rec'd:          3
+	Ack frames lost:                 0
+	Bad data frames rec'd:           0
+	Ack frames not lost:             0
+	Payloads accepted:               3
+	Timeouts:                        8
+	Total ack frames sent:           0
+	Ack timeouts:                    0
+	Ack frames lost:                 0
+	Ack frames not lost:             0
+	Timeouts:                        9
+	Ack timeouts:                    0
+
+Efficiency (payloads accepted/data pkts sent) = 24%
+End of simulation.  Time=1000

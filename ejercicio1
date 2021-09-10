@@ -1,0 +1,85 @@
+
+
+ Simulating Protocol 2
+
+
+Events: 100    Parameters: 10 0 0
+
+DATOS seq: 0 paquete: 0  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 1  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 2  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 3  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 4  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 5  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 6  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 7  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 8  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 9  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 10  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 11  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 12  ---->
+					<---- ACK seq: 0 paquete: 0
+
+DATOS seq: 0 paquete: 13  ---->
+					<---- ACK seq: 0 paquete: 0
+
+Process 1:
+	Total data frames sent:          0
+	Data frames lost:                0
+
+Process 0:
+	Total data frames sent:         14
+	Data frames lost:                0
+	Data frames not lost:           14
+	Frames retransmitted:            0
+	Good ack frames rec'd:          13
+	Bad ack frames rec'd:            0
+
+	Good data frames rec'd:          0
+	Bad data frames rec'd:           0
+	Payloads accepted:               0
+	Total ack frames sent:           0
+	Ack frames lost:                 0
+	Ack frames not lost:             0
+	Data frames not lost:            0
+	Frames retransmitted:            0
+	Timeouts:                        0
+	Good ack frames rec'd:           0
+	Ack timeouts:                    0
+	Bad ack frames rec'd:            0
+
+	Good data frames rec'd:         14
+	Bad data frames rec'd:           0
+	Payloads accepted:              14
+	Total ack frames sent:          14
+	Ack frames lost:                 0
+	Ack frames not lost:            14
+	Timeouts:                        0
+	Ack timeouts:                    0
+
+Efficiency (payloads accepted/data pkts sent) = 100%
+End of simulation.  Time=100
