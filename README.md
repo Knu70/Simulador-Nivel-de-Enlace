@@ -43,10 +43,7 @@ llegan con error.
 
 
 
-### Ejercicio 3: Ejecutar el protocolo 3 con la siguiente orden: ./protocol3 100 10 10 10 0. Dibujar
-en la gráfica inferior el resultado obtenido. Interpretar y comentar cada una de las
-situaciones que se producen en la comunicación y sus causas (errores, timeouts,
-retransmisiones, etc.).
+### Ejercicio 3: Ejecutar el protocolo 3 con la siguiente orden: ./protocol3 100 10 10 10 0. Dibujar en la gráfica inferior el resultado obtenido. Interpretar y comentar cada una de las situaciones que se producen en la comunicación y sus causas (errores, timeouts, retransmisiones, etc.).
 
 <div align="center">
   <img src="https://github.com/road2root/Simulador-Nivel-de-Enlace/blob/main/Images/Ejercicio3.1.png" width="500" />
@@ -107,10 +104,7 @@ mayor que en protocolo 3 cuantas más tramas se pierdan o lleguen con error.
 
 
 
-### Ejercicio 6: Ejecutar los protocolos de ventana deslizante (protocolo5 y protocolo6) y realizar
-una comparación entre ellos. Para ello probar la ejecución de los 2 protocolos bajo las
-mismas circunstancias e ir variando los parámetros de entrada. ¿Bajo qué condiciones
-resulta más adecuado utilizar el protocolo5? ¿y el protocolo6?
+### Ejercicio 6: Ejecutar los protocolos de ventana deslizante (protocolo5 y protocolo6) y realizar una comparación entre ellos. Para ello probar la ejecución de los 2 protocolos bajo las mismas circunstancias e ir variando los parámetros de entrada. ¿Bajo qué condiciones resulta más adecuado utilizar el protocolo5? ¿y el protocolo6?
 
 <div align="center">
   <img src="https://github.com/road2root/Simulador-Nivel-de-Enlace/blob/main/Images/Ejercicio6.1.png" width="500" />
